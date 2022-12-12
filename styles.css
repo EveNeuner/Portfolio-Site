@@ -1,27 +1,114 @@
 h1 {
     text-align: center;
+    color: midnightblue;
+}
+
+h3 {
+    text-align: center;
+    color: midnightblue;
+    background-color: rgb(241, 166, 105);
 }
 
 p{
     text-align: center;
+    color: midnightblue;
+    background-color: rgb(224, 207, 193);
+}
+
+img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 40%;
+    width: 40%;
 }
 
 figcaption {
     text-align: center;
+    background-color: rgb(241, 166, 105);
 }
 
 nav {
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    padding: 17vh;
     text-align: center;
+    color: rgb(126, 162, 244);
 }
 
 nav>li {
     text-align: center;
+    display: inline-block;
+    border-style: outset;
+    border-color: rgb(126, 162, 244);
+    font-size: larger;
+    background-color: rgb(168, 194, 255);
 }
 
 nav>li>a:hover {
-    
+    background-color: rgb(64, 107, 206);
 }
 
 body {
-    
+background-color: rgb(224, 207, 193);
+}
+
+.ContactForm {
+    background-color: rgb(168, 194, 255);
+    margin: auto;
+}
+
+.bar1{
+    background-image: url(Images/books.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 25vh;
+
+    margin: 0;
+    border-radius: 10px;
+}
+
+.bar2{
+    background-image: url(Images/colored\ pencil\ line\ 2.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 25vh;
+
+    margin: 0;
+    border-radius: 10px;
+}
+
+.bar3{
+    background-image: url(Images/crocheting\ background.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 25vh;
+
+    margin: 0;
+    border-radius: 10px;
+}
+
+.bar4{
+    background-image: url(Images/guitar\ picks.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 25vh;
+
+    margin: 0;
+    border-radius: 10px;
+}
+
+.bar5{
+    background-image: url(Images/paint\ chips.webp);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 25vh;
+
+    margin: 0;
+    border-radius: 10px;
 }
